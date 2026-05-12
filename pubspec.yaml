@@ -1,0 +1,39 @@
+name: ks_parfume
+description: KS Parfume - Sistem Manajemen Parfum by Muliawan Industries
+version: 3.7.0+2010
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.3.0
+  intl: ^0.18.1
+  fl_chart: ^0.66.0
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  file_picker: ^8.0.0
+  share_plus: ^9.0.0
+  csv: ^6.0.0
+  excel: ^4.0.3
+  crypto: ^3.0.3
+  connectivity_plus: ^6.0.0
+  url_launcher: ^6.2.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  print_bluetooth_thermal: ^1.1.9
+  permission_handler: ^11.3.0
+  archive: ^3.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
